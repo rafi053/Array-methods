@@ -1,9 +1,17 @@
+// 1
 const numAndBool = (num, bool) => {
-  for (let i = 0; i < num; i++) {
+  
     if (bool) {
-      console.log("-");
+      result = '-'.repeat(num) + '>';
     } else {
-      console.log("_");
+      result = '<' + '-'.repeat(num);
     } 
+
+    return result
   } 
-}
+
+console.log(numAndBool(5, false));
+
+// 2
+
+ 
